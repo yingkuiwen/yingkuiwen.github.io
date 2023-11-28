@@ -1,0 +1,39 @@
+    .one-pan-tip {
+        cursor: pointer;
+    }
+
+    .one-pan-tip::before {
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+        width: 1em;
+        height: 1em;
+        margin: 0 1px .15em 1px;
+        vertical-align: middle;
+        display: inline-block;
+    }
+
+    .one-pan-tip-success::before {
+        content: '';
+        background-image: url(./assert/image/tip/success.png)
+    }
+
+    .one-pan-tip-error {
+        text-decoration: line-through;
+    }
+
+    .one-pan-tip-error::before {
+        content: '';
+        background-image: url(./assert/image/tip/error.png)
+    }
+
+    .one-pan-tip-other::before {
+        content: '';
+        background-image: url(./assert/image/tip/other.png)
+    }
+
+    .one-pan-tip-lock::before {
+        content: '';
+        background-image: url(./assert/image/tip/lock.png)
+    }
