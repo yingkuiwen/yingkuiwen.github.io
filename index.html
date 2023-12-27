@@ -13,95 +13,48 @@
     <link rel="stylesheet" href="./assert/style.css">
     <link rel="shortcut icon" type="image/x-icon" href=""/>
     <style>
-        .theme-color {
-            color: #03a9f4 !important;
+        article.hot-item {
+            width: 500px;
+            float: left;
         }
-
-        header h1 a:hover {
-            text-decoration: none;
+        article.hot-item .img {
+            width: 150px;
+            float: left;
         }
-
-        .favorite-section {
+        article.hot-item .text {
+            width: 300px;
+            float: left;
         }
-
-        .favorite-site {
-            height: 60px;
-            overflow-x: scroll;
-            white-space: nowrap;
-            overflow-y: hidden;
-        }
-
-        .favorite-site::-webkit-scrollbar {
-            display: none; /*隐藏滚动条*/
-
-        }
-
-        img {
-            vertical-align: bottom;
-        }
-
-        .favorite-site .site {
-            width: 60px;
-            height: 60px;
-            margin: 5px 5px;
-            border-radius: 10px;
-            display: inline-block;
-            padding: 5px 5px;
-        }
-
-        .favorite-site .site img {
-            height: 50px;
-            border-radius: 10px;
-        }
-
-        section > span.title {
-            font-size: 1rem;
-            font-weight: bold;
-        }
-
-        main > section {
-            margin-bottom: 1.5rem;
-        }
-
-        .news-section .favorite-news .news {
-            height:12rem;
-            border-radius: 0.5rem;
-            border: #eaecef 1px solid;
-            margin-top: 0.5rem;
-            padding: 0.7rem;
-            background-size:100% 100%;
-            position: relative;
-        }
-        
-        .news-section .favorite-news .news .news-body{
-            position: absolute;
-            bottom: 0.2rem;
+        article.follow {
+            margin-left: 12px;
         }
     </style>
 </head>
 <body>
-<header class="container-lg px-3 my-5 markdown-body">
-    <h1>
+<header class="container-lg mt-1 markdown-body">
+    <h2>
         简优开源
-    </h1>
+    </h2>
 </header>
-<main class="container-lg px-3 my-5 markdown-body">
-    <section class="favorite-section">
-        <div class="title">开源热点</div>
-        <div class="favorite-site">
-            <div class="site">
-                <a href="#"><img title="Spring Framework" alt="logo" src="assert/image/hotspot/img.png"/></a>
+<main class="container-lg markdown-body">
+    <section class="hot-section">
+        <article class="hot-item">
+            <div class="img"><img src="assert/image/tip/success.png"></div>
+            <div class="text">
+                <h3>Spring Boot</h3>
+                <p>Takes an opinionated view of building Spring applications and gets you up and running as quickly as possible.</p>
             </div>
-            <div class="site">
-                <a href="#"><img alt="logo" src="assert/image/hotspot/img_1.png"/></a>
+            <div class="clear-float" style="clear: both"></div>
+        </article>
+        <article class="hot-item follow">
+            <div class="img"><img src="assert/image/tip/success.png"></div>
+            <div class="text">
+                <h3>Spring Boot</h3>
+                <p>Takes an opinionated view of building Spring applications and gets you up and running as quickly as possible.</p>
             </div>
-            <div class="site">
-                <a href="#"><img alt="logo" src="assert/image/hotspot/img_4.png"/></a>
-            </div>
-            <div class="site">
-                <a href="#"><img alt="logo" src="assert/image/hotspot/img_5.png"/></a>
-            </div>
-        </div>
+            <div class="clear-float" style="clear: both"></div>
+        </article>
+        <div class="clear-float" style="clear: both"></div>
     </section>
     <section class="news-section">
         <div class="title">开源快讯</div>
