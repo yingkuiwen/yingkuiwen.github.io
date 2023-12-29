@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="314b9cef-efd3-4b92-be8d-962d3363a342" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assert/image/article/spring-boot.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assert/image/article/spring-cloud.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assert/image/article/spring-data.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assert/image/article/spring-framework.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6013a00b362253c64368d6eebc50ea2131754e2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6013a00b362253c64368d6eebc50ea2131754e2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="314b9cef-efd3-4b92-be8d-962d3363a342" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +75,7 @@
       <workItem from="1703335658778" duration="221000" />
       <workItem from="1703518362485" duration="1356000" />
       <workItem from="1703684536446" duration="4153000" />
-      <workItem from="1703779683919" duration="3167000" />
+      <workItem from="1703779683919" duration="3226000" />
     </task>
     <servers />
   </component>
