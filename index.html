@@ -13,70 +13,91 @@
     <link rel="stylesheet" href="./assert/style.css">
     <link rel="shortcut icon" type="image/x-icon" href=""/>
     <style>
-        article.hot-item {
-            width: 500px;
-            float: left;
+        .junior-section {
+            width:420px;
+            float:left;
         }
-        article.hot-item .img {
-            width: 150px;
-            float: left;
-            margin-top: 16px;
-        }
-        article.hot-item .text {
-            width: 300px;
-            float: left;
-            margin-top: 16px;
-        }
-        article.follow {
-            margin-left: 12px;
-        }
-        article.news-article {
-
-        }
-        article.news-article .img {
-            width: 150px;
-            float: left;
-            margin-top: 16px;
-        }
-        article.news-article .text {
-            float: left;
-            max-width: 850px;
+        .senior-section {
+            width:580px;
+            float:left;
             margin-left: 10px;
-            margin-top: 16px;
+        }
+        .senior-section article.news-article .img {
+            width:60px;
+            float:left;
+            margin: 5px;
+        }
+        .senior-section article.news-article .text {
+            width:480px;
+            float: left;
+            margin: 5px;
         }
         header {
             border-bottom: 1px solid #eaecef;
+        }
+        .news-article {
+            margin: 5px;
+        }
+        .news-section article.news-article .img {
+            width: 150px;
+            float: left;
+            margin-top: 16px;
+        }
+        .news-section article.news-article .text {
+            margin-left: 10px;
+            margin-top: 16px;
+            float: left;
+            max-width: 840px;
         }
     </style>
 </head>
 <body>
 <header class="container-lg mt-1">
-    <h2>
+    <span style="font-size: 28px;font-weight: bold;">
         简优开源
-    </h2>
+    </span>
+    <span style="font-size: 12px;">代码驱动生活</span>
 </header>
 <main class="container-lg">
     <section class="hot-section">
-        <article class="hot-item">
-            <div class="img"><img src="assert/image/tip/success.png"></div>
-            <div class="text">
-                <h3>Spring Boot</h3>
-                <p>Takes an opinionated view of building Spring applications and gets you up and running as quickly as possible.</p>
-            </div>
-            <div class="clear-float" style="clear: both"></div>
-        </article>
-        <article class="hot-item follow">
-            <div class="img"><img src="assert/image/tip/other.png"></div>
-            <div class="text">
-                <h3>Spring Boot</h3>
-                <p>Takes an opinionated view of building Spring applications and gets you up and running as quickly as possible.</p>
-            </div>
-            <div class="clear-float" style="clear: both"></div>
-        </article>
+        <section class="junior-section">
+            <article class="news-article">
+                <img src="assert/image/article/spring-deps.png" style="object-fit: contain;max-width: 100%;max-height: 100%;">
+                <h3>Spring Web Services专注于创建文档驱动的 Web 服务。</h3>
+                <p>Spring Web Services 旨在促进契约优先的 SOAP 服务开发，允许使用多种操作 XML 有效负载的方法之一来创建灵活的 Web 服务。</p>
+            </article>
+        </section>
+        <section class="senior-section">
+            <article class="news-article">
+                <div class="img"><img src="assert/image/article/spring-data.svg"></div>
+                <div class="text">
+                    <h4>Spring Data Relational</h4>
+                    <p>
+                        Spring Data Relational 是 Spring Data 系列的一部分，可以轻松实现 SQL 数据库的存储库。该模块处理对基于 JDBC 和 R2DBC 的数据访问层的增强支持。
+                    </p>
+                </div>
+                <div class="clear-float" style="clear: both"></div>
+            </article>
+            <article class="news-article">
+                <div>
+                    <h5><a href="https://github.com/qos-ch/logback">jackson-dataformat-xml</a> 对 POJO 序列化为 XML（以及从 XML 反序列化）的支持。</h5>
+                </div>
+            </article>
+            <article class="news-article">
+                <div>
+                    <h5><a href="https://github.com/qos-ch/logback">logback</a> 一个可靠、通用、快速且灵活的 Java 日志库。</h5>
+                </div>
+            </article>
+            <article class="news-article">
+                <div>
+                    <h5><a href="https://github.com/zuramai/voler">Voler</a> 一个基于 Bootstrap 5 的管理系统模板</h5>
+                </div>
+            </article>
+        </section>
         <div class="clear-float" style="clear: both"></div>
     </section>
     <section class="news-section">
-        <article class="news-article">
+        <!--<article class="news-article">
             <div class="img"><img src="assert/image/article/spring-boot.svg"></div>
             <div class="text">
                 <h3>Spring Boot</h3>
@@ -86,25 +107,7 @@
                 </p>
             </div>
             <div class="clear-float" style="clear: both"></div>
-        </article>
-        <article class="news-article">
-            <div class="img"><img src="assert/image/article/spring-framework.svg"></div>
-            <div class="text">
-                <h3>Spring REST Docs</h3>
-                <p>Takes an opinionated view of building Spring applications and gets you up and running as quickly as possible.Spring REST Docs
-                    Lets you document RESTful services by combining hand-written documentation with auto-generated snippets produced with Spring MVC Test or REST Assured.</p>
-            </div>
-            <div class="clear-float" style="clear: both"></div>
-        </article>
-        <article class="news-article">
-            <div class="img"><img src="assert/image/article/spring-cloud.svg"></div>
-            <div class="text">
-                <h3>Spring Cloud</h3>
-                <p>Takes an opinionated view of building Spring applications and gets you up and running as quickly as possible.Spring REST Docs
-                    Lets you document RESTful services by combining hand-written documentation with auto-generated snippets produced with Spring MVC Test or REST Assured.</p>
-            </div>
-            <div class="clear-float" style="clear: both"></div>
-        </article>
+        </article>-->
     </section>
 </main>
 </body>
