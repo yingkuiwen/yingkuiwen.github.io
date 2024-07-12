@@ -1,10 +1,13 @@
+.hot-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 .junior-section {
-    width:420px;
-    float:left;
+    flex: 1;
 }
 .senior-section {
-    width:580px;
-    float:left;
+    flex: 1;
     margin-left: 10px;
 }
 .senior-section article.news-article .img {
@@ -23,6 +26,20 @@
 }
 header {
     border-bottom: 1px solid #eaecef;
+}
+main {
+    margin:auto;
+    max-width:1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#left {
+    flex: 7;
+}
+#right {
+    flex: 3;
+    border-left: 1px solid #eaecef;
 }
 .news-article {
     margin: 5px;
