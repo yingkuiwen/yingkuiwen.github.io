@@ -41,7 +41,7 @@ main {
 #right {
     flex: 3;
     border-left: 1px solid #eaecef;
-    border-image: linear-gradient(.5turn, red, 10%, blue) 30;
+    border-image: linear-gradient(.5turn,#ffffff,#f1f1f1, red, blue) 30;
 }
 .news-article {
     margin: 5px;
@@ -51,7 +51,7 @@ main {
 }
 .news-section > h4 {
     border-bottom: 1px solid #eaecef;
-    border-image: linear-gradient(.25turn, red, 10%, blue) 30;
+    border-image: linear-gradient(.25turn, red, blue,#f1f1f1,white) 30;
 }
 .news-section article.news-article .img {
     width: 150px;
