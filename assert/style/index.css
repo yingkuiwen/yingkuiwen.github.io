@@ -40,6 +40,12 @@ main {
     border-image: linear-gradient(.5turn,#ffffff,#f1f1f1, red, blue) 30;
     padding: 5px;
 }
+#right > div {
+    margin-bottom: 5px;
+}
+#right > div > img {
+    margin-right: 3px;
+}
 .news-article {
     margin: 5px;
 }
