@@ -22,7 +22,7 @@
 }
 header {
     border-bottom: 1px solid #eaecef;
-    border-image: linear-gradient(.25turn, red, 10%, blue) 30;
+    border-image: linear-gradient(.25turn, red, 10%, blue) 1;
 }
 main {
     margin:auto;
@@ -37,7 +37,7 @@ main {
 #right {
     flex: 3;
     border-left: 1px solid #eaecef;
-    border-image: linear-gradient(.5turn,#ffffff,#f1f1f1, red, blue) 30;
+    border-image: linear-gradient(.5turn,#ffffff,#eaecef, red, blue) 1;
     padding: 5px;
 }
 #right > div {
