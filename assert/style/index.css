@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin: 5px;
 }
 .junior-section {
     flex: 1;
@@ -37,11 +38,11 @@ main {
 #right {
     flex: 3;
     border-left: 1px solid #eaecef;
-    border-image: linear-gradient(.5turn,#ffffff,#eaecef, red, blue) 1;
+    border-image: linear-gradient(.5turn,red,blue, #eaecef,#ffffff) 1;
     padding: 5px;
 }
 #right > div {
-    margin-bottom: 5px;
+    margin-top: 5px;
 }
 #right > div > img {
     margin-right: 3px;
@@ -51,6 +52,11 @@ main {
 }
 .news-section {
     margin-top: 1rem;
+}
+#right > h4 {
+    border-bottom: 1px solid #eaecef;
+    border-image: linear-gradient(.25turn, blue,#f1f1f1,white,white) 30;
+    margin: 5px;
 }
 .news-section > h4 {
     border-bottom: 1px solid #eaecef;
