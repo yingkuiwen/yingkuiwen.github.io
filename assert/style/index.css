@@ -45,6 +45,12 @@ main {
 }
 #right > div > img {
     margin-right: 3px;
+    width: 50px;
+    max-height: 50px;
+}
+#right > div > div > p {
+    font-size: 11px;
+    text-indent: 1em;
 }
 .news-article {
     margin: 5px;
