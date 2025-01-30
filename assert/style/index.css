@@ -9,6 +9,9 @@
 .senior-section {
     flex: 1;
 }
+.senior-section h5{
+	margin: 6px 2px;
+}
 .senior-section article.news-article .img {
     width:130px;
     max-height:130px;
@@ -59,9 +62,7 @@ main {
     margin-top: 1rem;
 }
 #right > h4 {
-    border-bottom: 1px solid #eaecef;
-    border-image: linear-gradient(.25turn, blue,#f1f1f1,white,white) 30;
-    margin: 5px;
+    text-align: center;
 }
 .news-section > h4 {
     border-bottom: 1px solid #eaecef;
